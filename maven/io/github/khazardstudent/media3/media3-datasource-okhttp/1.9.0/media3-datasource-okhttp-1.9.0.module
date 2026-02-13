@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.khazardstudent.media3",
+    "module": "media3-datasource-okhttp",
+    "version": "1.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-datasource",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media3-datasource-okhttp-1.9.0.aar",
+          "url": "media3-datasource-okhttp-1.9.0.aar",
+          "size": 9781,
+          "sha512": "b1993bf2050c49b02bed2481601b4f3944304d9e502dfd4740d5c67a18dd9f170ffcb8bb96f0aef16bc7a53b06992269e7b42212a309e43da157abfec2674431",
+          "sha256": "784e22035888f80aec87118664f5edb9187c95ece1c4f982dafdb999b8d5a366",
+          "sha1": "e94f51ff01438d78fa20ac0fa081281b4e44e572",
+          "md5": "d37da2893aa608d27088f85fdd83a9ba"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-datasource",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media3-datasource-okhttp-1.9.0.aar",
+          "url": "media3-datasource-okhttp-1.9.0.aar",
+          "size": 9781,
+          "sha512": "b1993bf2050c49b02bed2481601b4f3944304d9e502dfd4740d5c67a18dd9f170ffcb8bb96f0aef16bc7a53b06992269e7b42212a309e43da157abfec2674431",
+          "sha256": "784e22035888f80aec87118664f5edb9187c95ece1c4f982dafdb999b8d5a366",
+          "sha1": "e94f51ff01438d78fa20ac0fa081281b4e44e572",
+          "md5": "d37da2893aa608d27088f85fdd83a9ba"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "media3-datasource-okhttp-1.9.0-sources.jar",
+          "url": "media3-datasource-okhttp-1.9.0-sources.jar",
+          "size": 6266,
+          "sha512": "2dd2ad006cf391f52bc9cbd4b9ff69b37419a7d81213375a8eaa7341dbca6a200b7949b67830193ae8def8cea9ed654071d57561b13371aed86b4ccc32696feb",
+          "sha256": "07541cf0f026f6ad3247ee25afb7e69397b03d5812a28723864afcb427cea283",
+          "sha1": "18bae429b13c1a784601eb91d03148fa179f5ac6",
+          "md5": "f522035b190f6d966822802ced0d0ff3"
+        }
+      ]
+    }
+  ]
+}

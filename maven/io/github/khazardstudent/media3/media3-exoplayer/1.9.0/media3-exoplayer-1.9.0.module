@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.khazardstudent.media3",
+    "module": "media3-exoplayer",
+    "version": "1.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-container",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-datasource",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-decoder",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-extractor",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-database",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media3-exoplayer-1.9.0.aar",
+          "url": "media3-exoplayer-1.9.0.aar",
+          "size": 1655126,
+          "sha512": "d420c3f1fd86df297b8f7efc650d486f8985fe4914b9068a55096ad1b3607f7d8795e2956c1a03dda665f7acfa715ac2cf11de8391dc9c5ad99f0b1bda1a52d5",
+          "sha256": "71fb02263ccab209a796b513ecb8c426f33cd3f98554233ec704fb73e772556e",
+          "sha1": "9bf68bf3898ff464cbb97fb90414252a2f402e98",
+          "md5": "d76d80f9251c7df82dea07dd386f1b62"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.3.6"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-container",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-datasource",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-decoder",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-extractor",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.khazardstudent.media3",
+          "module": "media3-database",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media3-exoplayer-1.9.0.aar",
+          "url": "media3-exoplayer-1.9.0.aar",
+          "size": 1655126,
+          "sha512": "d420c3f1fd86df297b8f7efc650d486f8985fe4914b9068a55096ad1b3607f7d8795e2956c1a03dda665f7acfa715ac2cf11de8391dc9c5ad99f0b1bda1a52d5",
+          "sha256": "71fb02263ccab209a796b513ecb8c426f33cd3f98554233ec704fb73e772556e",
+          "sha1": "9bf68bf3898ff464cbb97fb90414252a2f402e98",
+          "md5": "d76d80f9251c7df82dea07dd386f1b62"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "media3-exoplayer-1.9.0-sources.jar",
+          "url": "media3-exoplayer-1.9.0-sources.jar",
+          "size": 1181213,
+          "sha512": "460820770bcb7bfb42aff37d82f1ac1eff9b49e7f4074ee009edac88d021c224ed0dacb7f9e8bbdf79e5d454fcf7da79767b0cfec6d404a8a44c0efd585ca7da",
+          "sha256": "90628821ac8af134a50e814b8f8925818d8b9ccb409dfd0d5236b0b38ef8f78b",
+          "sha1": "470d4beb2a33b2dbc5dfe750262ecc6660a1ccdb",
+          "md5": "4a084b80b807d50d2add6815bb774797"
+        }
+      ]
+    }
+  ]
+}
