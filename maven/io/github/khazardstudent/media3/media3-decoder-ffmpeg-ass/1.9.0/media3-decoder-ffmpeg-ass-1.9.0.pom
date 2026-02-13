@@ -10,8 +10,8 @@
   <artifactId>media3-decoder-ffmpeg-ass</artifactId>
   <version>1.9.0</version>
   <packaging>aar</packaging>
-  <name>Media3 FFmpeg decoder module</name>
-  <description>Media3 FFmpeg decoder module</description>
+  <name>Media3 FFmpeg ASS feature bundle</name>
+  <description>Media3 FFmpeg ASS feature bundle</description>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -31,23 +31,24 @@
   <dependencies>
     <dependency>
       <groupId>io.github.khazardstudent.media3</groupId>
-      <artifactId>media3-decoder</artifactId>
+      <artifactId>media3-decoder-ffmpeg</artifactId>
       <version>1.9.0</version>
       <scope>compile</scope>
       <type>aar</type>
     </dependency>
     <dependency>
       <groupId>io.github.khazardstudent.media3</groupId>
-      <artifactId>media3-exoplayer</artifactId>
+      <artifactId>media3-extractor</artifactId>
       <version>1.9.0</version>
-      <scope>runtime</scope>
+      <scope>compile</scope>
       <type>aar</type>
     </dependency>
     <dependency>
-      <groupId>androidx.annotation</groupId>
-      <artifactId>annotation</artifactId>
-      <version>1.6.0</version>
-      <scope>runtime</scope>
+      <groupId>io.github.khazardstudent.media3</groupId>
+      <artifactId>media3-ui</artifactId>
+      <version>1.9.0</version>
+      <scope>compile</scope>
+      <type>aar</type>
     </dependency>
   </dependencies>
 </project>
