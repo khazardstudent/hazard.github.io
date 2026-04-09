@@ -35,11 +35,11 @@
         {
           "name": "media3-decoder-ffmpeg-1.9.0.aar",
           "url": "media3-decoder-ffmpeg-1.9.0.aar",
-          "size": 18890969,
-          "sha512": "69c9d9a6b4375979ade4b2b40baed3e7450cd1dad726e1416cc44832f479588d3bf9e61564f912ba7eef8c9d301dc66a6108945907ccbb6e6d7f9bfd7096fcd9",
-          "sha256": "9e3914064da9d6c18f13dd9cb0eeb192707ad322f0968d2f73ca520b14171193",
-          "sha1": "85e0850adc3627f274474ebe29ed0d8cbf7158d4",
-          "md5": "e230321d57bf043774a117eb27a014c1"
+          "size": 22831967,
+          "sha512": "919b5ec5c64c428c83b25cb35d97b27424c1c96ddd05620f1d4b4ce5ef161ce1a2b2ba4d3ac273219158e9de5bd0f7ad6731be1f88e5ce58d4814a56d42eeba9",
+          "sha256": "208e6d0c3cc96d7944d7c5552c25aedd665654dba3aad1faacd84ce567bd3458",
+          "sha1": "81d2f7a3d5d6f0a876553c276dd63b73b39a3938",
+          "md5": "4b195293e202f26b08a0bd2071ee113e"
         }
       ]
     },
@@ -78,11 +78,11 @@
         {
           "name": "media3-decoder-ffmpeg-1.9.0.aar",
           "url": "media3-decoder-ffmpeg-1.9.0.aar",
-          "size": 18890969,
-          "sha512": "69c9d9a6b4375979ade4b2b40baed3e7450cd1dad726e1416cc44832f479588d3bf9e61564f912ba7eef8c9d301dc66a6108945907ccbb6e6d7f9bfd7096fcd9",
-          "sha256": "9e3914064da9d6c18f13dd9cb0eeb192707ad322f0968d2f73ca520b14171193",
-          "sha1": "85e0850adc3627f274474ebe29ed0d8cbf7158d4",
-          "md5": "e230321d57bf043774a117eb27a014c1"
+          "size": 22831967,
+          "sha512": "919b5ec5c64c428c83b25cb35d97b27424c1c96ddd05620f1d4b4ce5ef161ce1a2b2ba4d3ac273219158e9de5bd0f7ad6731be1f88e5ce58d4814a56d42eeba9",
+          "sha256": "208e6d0c3cc96d7944d7c5552c25aedd665654dba3aad1faacd84ce567bd3458",
+          "sha1": "81d2f7a3d5d6f0a876553c276dd63b73b39a3938",
+          "md5": "4b195293e202f26b08a0bd2071ee113e"
         }
       ]
     },
